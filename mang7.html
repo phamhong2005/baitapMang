@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [3, 5, 1, 3, 2, 10]
+    let V = + prompt("nhấn")
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i]===V){
+            numbers.splice(i, 1)
+        }
+    }
+    console.log(numbers)
+</script>
+
+</body>
+</html>
